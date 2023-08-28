@@ -1,0 +1,1348 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+.html,body{
+    overflow-x: hidden;
+}
+.Wrapper{
+    width: 100vw;
+    height:100vh;
+}
+.Desktop{
+    width: 1440px;
+    height: 5,623px;
+    top: -3457px;
+    left: -960px;
+}
+.Hero{
+    width: 1440px;
+    height: 772px;
+}
+.Items-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.happy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 11/12;
+    height: 84px;
+    padding: 24px 112px 24px 112px;
+    background: #FFFFFF;
+    left: 50%;
+    margin-top: -30px;
+}
+.Title{
+    width: 131px;
+    height: 28px;
+    top: 28px;
+    left: 112px;
+   font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.Items{
+    width: 394px;
+    height:36px;
+    top: 24px;
+    left: 934px;
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin-right: -80px;
+}
+.Item-1{
+    width:67px;
+    height: 20px;
+    padding: 0px 16px 0px 16px;
+    gap: 10px;
+    left: 0%;
+}
+.Work{
+    width: 35px;
+    height: 20px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.Item-2{
+    width: Hug (90px);
+    height: Hug (20px);
+    padding: 0px 16px 0px 16px;
+    gap: 10px;
+}
+.Services{
+    width: 58px;
+    height: 20px;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.Item-3{
+    width: Hug (73px);
+    height: Hug (20px);
+    padding: 0px 16px 0px 16px;
+    gap: 10px;
+}
+.About{
+    width: 41px;
+    height: 20px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.Contact{
+    size: md;
+    width: Hug (92px);
+    height: Hug (36px);
+    padding: 10px 16px 10px 16px;
+    border-radius: 100px;
+    gap: 8px;
+    background: #5E3BEE;
+    color: white;
+}
+.btn-contact{
+    width: 60px;
+    height: 16px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: -2px;
+
+
+}
+.Content{
+    width:  1,008px;
+    height: Hug (309px);
+    top: 212px;
+    left: 216px;
+    gap: 40px;
+    margin-left: 3%;
+}
+.Data{
+    width: Fill (1,008px);
+    height: Fixed (217px);
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Head{
+    width: 1008px;
+    height: 28px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    font-family: Inter;
+    margin-top: 100px;
+    
+}
+.Desc{
+    width: 1008px;
+    height: 180px;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 90px;
+    letter-spacing: -0.025em;
+    text-align: center;
+    margin-top: 10px;
+}
+.btn-data{
+    border-radius: 100px;
+    padding: 5px 16px;
+    background: #5E3BEE;
+    cursor: pointer;
+}
+.btn-para{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* work section */
+.Work-Section{
+    width: Hug (1,440px);
+    height: Hug (2,204px);
+    padding: 120px 112px 120px 112px;
+    gap: 48px;
+    
+}
+.Section-Heading{
+    width: Fixed (592px);
+    height: Hug (120px);
+    padding: 0px 0px 0px 40px;
+    gap: 8px;
+}
+.H2{
+
+    width: 552px;
+    height: 120px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color: #111827;
+}
+.Work-Section-Container{
+    width: Hug (1,216px);
+    height: Hug (1,796px);
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+.Col-1{
+    width: Hug (592px);
+    height: Hug (1,796px);
+    gap: 56px;
+}
+.Projects-1{
+    width: Hug (592px);
+    height: Hug (1,688px);
+    padding: 0px 40px 0px 40px;
+    gap: 80px;
+}
+.Card-1{
+    width: Fixed (512px);
+    height: Hug (804px);
+    gap: 24px;
+}
+.Card-Content{
+    width: Fill (512px);
+    height: Hug (124px);
+    gap: 8px;
+}
+.Content-head{
+    width: 512px;
+    height: 32px;
+    color: #111827;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.Content-para{
+    width: 512px;
+    height: 84px;
+    color: #111827;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.Work-btn{
+    width: Fill (592px);
+    height: Hug (52px);
+    padding: 0px 40px 0px 40px;
+    gap: 10px;
+}
+.Work-btn-2{
+    width: Hug (195px);
+    height: Hug (52px);
+    padding: 5px 15px;
+    border-radius: 100px;
+    gap: 8px;
+    background: #111827;
+
+}
+.btn-para-2{
+    width: 133px;
+    height: 20px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.Projects-2{
+    width: Hug (592px);
+    height: Hug (1,688px);
+    padding: 0px 40px 0px 40px;
+    gap: 80px;
+    margin-top: 75px;
+}
+/* Services section */
+.Services-Section{
+    width: 1,440px;
+    height: 800px;
+    padding: 120px 112px 120px 112px;
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+}
+.Services-Container{
+    width: 1216px;
+    height: 560px;
+    margin-left: 3%;
+}
+.Services-Container-2{
+    width: 1,216px;
+    height:560px;
+    top: 120px;
+    left: 112px;
+    padding: 64px 0px 64px 0px;
+    gap: 10px;
+    background: #F0FEFA
+
+}
+.Content-Container{
+    width:   1134px;
+    height: 432px;
+    padding: 64px 0px 64px 0px;
+    gap: 10px;
+}
+.Section-Heading {
+    width: Fixed (488px);
+    height: Hug (304px);
+    padding: 0px 72px 0px 72px;
+    gap: 32px;
+}
+.Section-Content{
+    width: Fill (344px);
+    height: Hug (220px);
+    gap: 16px;
+}
+.Section-Heading-2{
+    width: 344px;
+    height: 120px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color: #111827;
+}
+.Section-Paragraph{
+    width: 344px;
+    height: 84px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4B5563;
+}
+.Section-btn{
+    width: Hug (184px);
+    height: Hug (52px);
+    padding: 4px 10px;
+    border-radius: 100px;
+    gap: 8px;
+    background: #5E3BEE;
+}
+.Section-btn-para{
+    width: 136px;
+    height: 20px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.Section-Cards{
+    width: 696px;
+    height: 560px;
+    top: 120px;
+    left: 632px;
+    padding: 0px 64px 0px 0px;
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+}
+.Service-Card{
+    width: 226px;
+    height: 177px;
+    padding: 32px;
+    gap: 32px;
+    background: #FFFFFF;
+    box-shadow: 24px 24px 40px -12px #1C2C4014;
+    margin-top: -28rem;
+    margin-left: 70%;
+}
+
+.H6{
+    width: max-content;
+    height: max-content;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #111827;
+    margin-top: 2rem;
+}
+.Card-Desc{
+    width: 236px;
+    height: max-content;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4B5563;
+    margin-top: -2rem;
+
+
+}
+.col-1{
+    width: Hug (300px);
+    height: Hug (560px);
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.Service-Card-2{
+    width: 226px;
+    height: 177px;
+    padding: 32px;
+    gap: 32px;
+    background: #FFFFFF;
+    box-shadow: 24px 24px 40px -12px #1C2C4014;
+   margin-top: -39rem;
+}
+.Service-Card-3{
+    width: 226px;
+    height: 177px;
+    padding: 32px;
+    gap: 32px;
+    background: #FFFFFF;
+    box-shadow: 24px 24px 40px -12px #1C2C4014;
+    
+}
+.Project-cover{
+    width: 512px;
+    height: 656px;
+}
+@media(max-width:375px){
+    .Wrapper{
+        width:325px;
+        height:max-content;
+        overflow-x: hidden;
+    }
+    .NavBar{
+        width: 300px;
+        height: 84px;
+    }
+    .Items-2{
+        opacity: 0;
+    }
+    .Title{
+        width: 139px;
+        height: 28px;
+        margin-left: -7rem;
+
+    }
+    .Contact{
+        width: 92px;
+        height:  36px;
+        padding: 10px 16px 10px 16px;
+        border-radius: 100px;
+        gap: 8px;
+        margin-left: -9rem;
+    }
+    .btn-contact{
+        width: 60px;
+        height: 16px;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .Content{
+        width:250px;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        
+    }
+    .Data{
+        width: Fill (335px);
+        height: Hug (188px);
+        gap: 16px;
+    }
+    .Head{
+        width: 335px;
+        height: 28px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .Desc{
+        width: 335px;
+        height: 144px;
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: -0.025em;
+        text-align: center;
+    }
+    .btn-data{
+        width:  184px;
+        height:  52px;
+        padding: 16px 24px 16px 24px;
+        border-radius: 100px;
+        gap: 8px;
+        background: #5E3BEE;
+        margin-top: 32px;
+
+    }
+    .btn-para{
+        width: 136px;
+        height: 20px;
+       color: #FFFFFF;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-top: 1px;
+    }
+    .Work-Section{
+        width: 325px;
+        height: 2,800px;
+        padding: 80px 20px 80px 20px;
+        gap: 48px;
+    }
+    .Section-Heading{
+        width: 265px;
+        height: 96px;
+        gap: 8px;
+    }
+    .H2{
+        width: 255px;
+        height: 96px;
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        color: #111827;
+    }
+    .Work-Section-Container{
+        display: flex;
+        flex-direction: column;
+        width: 275px;
+        height:2,496px;
+        gap: 48px;
+
+    }
+    .Card-1{
+        width: 265px;
+        height: 561px;
+        gap: 16px;
+        margin-left: -7rem;
+    }
+    .Project-cover{
+        width: 300px;
+        height: 375px;
+    }
+    .Card-Content{
+        width: 290px;
+        height:116px;
+        gap: 8px;
+    }
+    .Content-head{
+        width: 290px;
+        height: 28px;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #111827;
+        margin-left: 3rem;
+    }
+    .Content-para{
+        width: 300px;
+        height: 80px;
+        margin-top: 3rem;
+        margin-left: 3rem;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #374151;
+    }
+    .Services-Section{
+        width: 250px;
+        height:  1,284px;
+        padding: 24px 0px 48px 0px;
+    }
+    .Services-Container{
+        width: 300px;
+        height:1212px;
+        padding: 40px 0px 40px 0px;
+        gap: 40px;
+        background-color: #F0FEFA;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;  
+        
+    }
+    .Section-Heading{
+        width: 250px;
+        height: 280px;
+        padding: 0px 20px 0px 20px;
+        gap: 32px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -15%;
+        /* margin-left: 11%; */
+    }
+    .Section-Content{
+        width: 270px;
+        height:  196px;
+        gap: 16px;
+    }
+    .Section-Heading-2{
+        width: 250px;
+        height: 96px;
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        color: #111827;
+    }
+    .Section-Paragraph{
+        width: 250px;
+        height: 84px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #4B5563;
+    }
+    .Section-btn{
+        width: 184px;
+        height: 52px;
+        padding: 16px 24px 16px 24px;
+        border-radius: 100px;
+        gap: 8px;
+        margin-top: 40%;
+        background: #5E3BEE;
+    }
+    .Section-btn-para{
+        width: 136px;
+        height: 20px;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 1px;
+    }
+    .Section-Cards{
+        width: 275px;
+        height: 812px;
+        padding: 0px 20px 0px 20px;
+        gap: 24px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -50%;
+        border-radius: 10%;
+    }
+    .Service-Card{
+        width: 250px;
+        height: max-content;
+        padding: 32px;
+        gap: 32px;
+        box-shadow: 24px 24px 40px -12px #1C2C4014;
+        margin-top: -25%;
+        margin-left: -1rem;
+        background: #FFFFFF;
+    }
+    .Card-Content-2{
+        width: 250px;
+        height: 132px;
+        gap: 16px;
+    }
+
+    .H6{
+        width: 240px;
+        height: 32px;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: #111827;
+    }
+    .Service-Card-2{
+        width: fit-content;
+        height: fit-content;
+        padding: 32px;
+        gap: 32px;
+        box-shadow: 24px 24px 40px -12px #1C2C4014;
+        margin-top: 1rem;
+    }
+    /* .col-1{
+        margin-left: 25%;
+    } */
+}
+
+
+.Logo-Clouds{
+    width: Fixed (1,440px);
+    height: Hug (280px);
+    padding: 48px 112px 48px 112px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.Logo-Container{
+    width: 1216px;
+    height: 44px;
+}
+.Logo-Content{
+    width: Hug (247px);
+    height: Hug (44px);
+    left: 484px;
+    padding: 12px 24px 12px 24px;
+    gap: 10px;
+    background: #FFFFFF;
+}
+.Logo-Para{
+    width: 199px;
+    height: 20px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #6B7280;
+    margin-left: 45%;
+    margin-right: 50%;
+}
+.Logos{
+    width: Fill (1,216px);
+    height: Hug (48px);
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+}
+.Frame-1{
+    display: flex;
+    flex-direction: row;
+}
+.Frame-2{
+    display: flex;
+    flex-direction: row;
+    margin-left: -2rem;
+}
+.Pendo-Logo{
+    width: 128px;
+    height: 48px;
+    padding: 11.1851806640625px 0px 7.185190200805664px 0px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+.Slack{
+    margin-left: 25rem;
+    margin-top: 1rem;
+}
+.Pendo-1{
+    width: 26.66666603088379px;
+    height: 26.074073791503906px;
+    margin-left: 25rem;
+    margin-top: 15%;
+}
+.Pendo-2{
+    width: 96px;
+    height: 29.037036895751953px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.Logo-Container-1{
+    width: 1216px;
+    height: 44px;
+}
+.Logo-Content-1{
+    width: Hug (273px);
+    height: Hug (44px);
+    left: 471px;
+    padding: 12px 24px 12px 24px;
+    gap: 10px;
+}
+.Logo-Para-1{
+    width: 225px;
+    height: 20px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #6B7280;
+    margin-left: 45%;
+    margin-right: 50%;
+}
+.Line-1{
+    width: 1216px;
+    margin-top: -47px;
+    border: 1px;
+    color: linear-gradient(90deg, #9CA3AF 0%, rgba(156, 163, 175, 0) 39.47%, rgba(156, 163, 175, 0) 50%, rgba(156, 163, 175, 0) 60.51%, #9CA3AF 100%);
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, #9CA3AF 0%, rgba(156, 163, 175, 0) 39.47%, rgba(156, 163, 175, 0) 50%, rgba(156, 163, 175, 0) 60.51%, #9CA3AF 100%);
+}
+.Line-2{
+    width: 1216px;
+    margin-top: -47px;
+    margin-left: 4rem;
+    border: 1px;
+    color: linear-gradient(90deg, #9CA3AF 0%, rgba(156, 163, 175, 0) 39.47%, rgba(156, 163, 175, 0) 50%, rgba(156, 163, 175, 0) 60.51%, #9CA3AF 100%);
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, #9CA3AF 0%, rgba(156, 163, 175, 0) 39.47%, rgba(156, 163, 175, 0) 50%, rgba(156, 163, 175, 0) 60.51%, #9CA3AF 100%);
+}
+
+@media(max-width:375px){
+    .Logo-Clouds{
+        width: Fill (275px);
+        height: Hug (290 px);
+        padding: 32px 20px 32px 20px;
+        gap: 24px;
+        margin-top: 33rem;
+    }
+    .Logo-Container{
+        width: 250px;
+        height: 44px;
+    }
+    .Logo-Content{
+        width: Hug (223px);
+        height: Hug (44px);
+        padding: 12px;
+        gap: 10px;
+        margin-left: -8rem;
+    }
+    .Logo-Para{
+        width: 200px;
+        height: 20px;
+        color: #6B7280;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .Logos{
+        width: Fill (250px);
+        height: Hug (128px);
+        gap: 32px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -26rem;
+    }
+    .Frame-1{
+        width: Fill (335px);
+        height: Hug (48px);
+        gap: 32px;
+        display: flex;
+        flex-direction: row;
+    }
+    .Frame-2{
+        width: Fill (335px);
+        height: Hug (48px);
+        gap: 32px;
+        display: flex;
+        flex-direction: row;
+        margin-top: -3rem;
+        margin-left: 1rem;
+    }
+    .Logo-Container-1{
+        width: 335px;
+        height: 44px;
+
+    }
+    .Logo-Content-1{
+        width: Hug (249px);
+        height: Hug (44px);
+        left: 43px;
+        padding: 12px;
+        gap: 10px;
+        background: #FFFFFF;
+        margin-left: -13rem;
+    }
+    .Logo-Para-1{
+        width: 225px;
+        height: 20px;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-align: center;
+        color: #6B7280;
+        
+    }
+    .Line-1{
+       opacity: 0;
+    }
+    .Line-2{
+        opacity: 0;
+    }
+
+}
+
+.About-Section{
+    width: Fixed (1,440px);
+    height: Hug (736px);
+    padding: 112px;
+    gap: 10px;
+}
+.About-Container{
+    width: Fill (1,216px);
+    height: Hug (512px);
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+}
+.About-Content{
+    width: Fill (488px);
+    height: Hug (392px);
+    padding: 0px 32px 0px 0px;
+    gap: 24px;
+}
+.About-Heading{
+    width: 456px;
+    height: 60px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color: #111827;
+}
+.About-Desc{
+    width: 456px;
+    height: 308px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #374151;
+}
+.About-Container-2{
+    width: Hug (696px);
+    height: Hug (512px);
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+}
+.WorkStation{
+    width: 384px;
+    height: 512px;
+}
+.Metrics{
+    width: Fixed (280px);
+    height: Hug (440px);
+    padding: 0px 0px 0px 32px;
+    gap: 64px;
+    display: flex;
+    flex-direction: column;
+}
+.Metric{
+    width: Fill (248px);
+    height: Hug (104px);
+    gap: 16px;
+}
+.Metric-Content{
+    width: Fill (248px);
+    height: Hug (88px);
+    gap: 8px;
+    margin-top: -50px;
+
+}
+.Metric-Heading{
+    width: 248px;
+    height: 60px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color: #111827;
+}
+.Metric-Desc{
+    width: 248px;
+    height: 20px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #6B7280;
+    margin-top: -59px;
+}
+.Metric-Line{
+    width: 248px;
+    border: 1px;
+    color: #9CA3AF;
+    border: 1px solid #9CA3AF
+}
+
+@media (max-width:375px) {
+    .About-Section{
+        width: Fill (300px);
+        height: Hug (1,462px);
+        padding: 40px 20px 80px 20px;
+        gap: 10px;
+    }
+    .About-Container{
+        width: Fill (280px);
+        height: Hug (1,342px);
+        gap: 48px;
+        display: flex;
+        flex-direction: column;
+    }
+    .About-Content{
+        width: Fill (260px);
+        height: Hug (428px);
+        gap: 16px;
+    }
+    .About-Heading{
+        width: 335px;
+        height: 48px;
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        color: #111827;
+    }
+    .About-Desc{
+        width: 260px;
+        height: 364px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #374151;
+    }
+    .About-Container-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .WorkStation{
+        width: 255px;
+        height: 446px;
+    }
+    .Metrics{
+        width: Fill (335px);
+        height: Hug (372px);
+        gap: 48px;
+        display: flex;
+        flex-direction: column;
+    }
+    .Metric{
+        width: Fill (335px);
+        height: Hug (92px);
+        gap: 16px;
+    }
+    .Metric-Content{
+        width: Fill (335px);
+        height: Hug (76px);
+        gap: 8px;
+    }
+    .Metric-Heading{
+        width: 335px;
+        height: 48px;
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        color: #111827;
+    }
+    .Metric-Desc{
+        width: 335px;
+        height: 20px;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-align: left;
+        color: #6B7280;
+    }
+    .Metric-Line{
+        width: 235px;
+        border: 1px;
+        color: #9CA3AF;
+        border: 1px solid #9CA3AF
+    }
+}
+
+.Footer{
+    width: 100vw;
+    height: Hug (831px);
+    padding: 120px 112px 120px 112px;
+    gap: 96px;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+}
+.Frame-3{
+    width: Hug (1,151px);
+    height: Hug (391px);
+    gap: 235px;
+    display: flex;
+    flex-direction: row;
+}
+.Frame-heading{
+    width: Fixed (592px);
+    height: Hug (160px);
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.idea{
+    width: 592px;
+    height: 72px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+}
+.talk{
+    width: 592px;
+    height: 72px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    margin-top: -46px;
+}
+.Saly{
+    width: 324px;
+    height: 391px;
+}
+.Saly-Img{
+    width: 324px;
+    height: 391px;
+}
+.Footer-Container{
+    width: 1,216px;
+    height:104px;
+    gap: 32px;
+}
+.Mail{
+    width: 1,216px;
+    height: 104px;
+    gap: 32px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #E5E7EB;
+}
+.Social{
+    width: Fixed (592px);
+    height: Hug (104px);
+    gap: 48px;
+    display: flex;
+    flex-direction: column;
+
+}
+.Row-1{
+    width: 592px;
+    height: 28px;
+    padding: 0px 0px 0px 128px;
+    margin-top: -5rem;
+    gap: 48px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+}
+.Insta{
+    width: 122.66666412353516px;
+    height: 28px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #E5E7EB;
+}
+.Row-2{
+    width: 592px;
+    height: 28px;
+    padding: 0px 0px 0px 128px;
+    gap: 48px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50%;
+    margin-top: rem;
+}
+
+
+
+
+@media(max-width:375px){
+    .Footer{
+        width: 300px;
+        height: 484px;
+        padding: 48px 20px 80px 20px;
+        gap: 64px;
+        background: #000000;
+    }
+    .Frame-heading{
+        width: 260px;
+        height:104px;
+        gap: 8px;
+    }
+    .idea{
+        width: 250px;
+        height: 48px;
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        color: #FFFFFF;
+
+    }
+    .talk{
+        width: 250px;
+        height: 48px;
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: -0.025em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    .Saly{
+        opacity: 0;
+    }
+    .Footer-Container{
+        width: 335px;
+        height: 88px;
+        gap: 48px;
+        display: flex;
+        flex-direction: column;
+    }
+    .Mail{
+        width: 250px;
+        height: 32px;
+        margin-top: -19rem;
+    }
+    .Social{
+        width: 304px;
+        height: 32px;
+        display: flex;
+        flex-direction: row;
+    }
+    .Row-1{
+        width:  335px;
+        height: 28px;
+        gap: 12px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -7rem;
+    }
+    .Insta{
+        width: 161.5px;
+        height: 28px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #E5E7EB;
+    }
+    .Row-2{
+        width: 335px;
+        height:28px;
+        gap: 12px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -11rem;
+        margin-top: 0rem;
+    }
+}
+
